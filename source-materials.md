@@ -1,0 +1,157 @@
+# Source Materials
+
+## Purpose of This Page
+
+This page records the sources available to the project, their status, reliability, format, and rules for using them. For extraction from these sources, see [[extraction-rules]].
+
+Use this page so AI assistants know what sources exist, what they may be used for, and what must not be assumed. AI agents should also follow [[AGENTS]].
+
+## General Source Rules
+
+- Do not invent source titles.
+- Do not invent citations.
+- Do not assume a source contains information unless it is listed or provided.
+- Distinguish between primary sources, reference works, datasets, and secondary scholarship.
+- Preserve original wording when quoting or transcribing.
+- If source text is missing, ask the user to provide it.
+- If a source is uncertain or incomplete, mark it clearly.
+- Do not silently correct, modernize, or translate source text unless asked. Record repeated violations in [[known-errors]].
+
+## Source Categories
+
+### Primary Sources
+
+Primary sources are historical or original texts used as evidence. See [[terminology]] for related project terms.
+
+Possible examples:
+
+- Gazetteers
+- Genealogies
+- Archival records
+- Memorials
+- Official documents
+- Literary texts
+- Commentaries
+- Stone inscriptions
+- Manuscripts
+
+### Reference Works
+
+Reference works help identify terms, names, places, dates, or background information.
+
+Possible examples:
+
+- Dictionaries
+- Biographical databases
+- Chronological tables
+- Place-name databases
+- Bibliographies
+
+### Datasets
+
+Datasets are structured data used for analysis. See [[workflows]] for repeatable processing steps.
+
+Possible examples:
+
+- CSV files
+- JSON files
+- TEI XML files
+- Extracted entity tables
+- OCR output files
+- Metadata spreadsheets
+
+### Secondary Scholarship
+
+Secondary scholarship includes modern academic articles, books, theses, and research notes.
+
+Rules:
+
+- Do not cite scholarship unless the source is available.
+- Do not invent page numbers.
+- Separate the author's argument from the project's interpretation.
+
+## Source Record Template
+
+### Source: [Source title]
+
+**Source type:**  
+[Primary source / reference work / dataset / secondary scholarship]
+
+**Language/script:**  
+[Classical Chinese / Traditional Chinese / Simplified Chinese / English / mixed]
+
+**Format:**  
+[PDF / TXT / CSV / JSON / XML / image / website / database]
+
+**Location:**  
+[Local path, URL, repository, or description]
+
+**Status:**  
+[Raw / cleaned / OCRed / manually checked / partially checked]
+
+**Reliability notes:**  
+[Known issues, OCR quality, edition issues, missing pages, uncertain metadata]
+
+**Allowed AI use:**  
+[What the AI may use this source for]
+
+**Restrictions:**  
+[What the AI must not do with this source]
+
+**Citation rule:**  
+[How to cite or refer to this source]
+
+## Current Sources
+
+No specific project sources have been fully registered yet. Add each source using the source record template above, then update [[index]] if the new source changes project navigation.
+
+## Example Source Record
+
+### Source: 新安縣志
+
+**Source type:**  
+Primary source / gazetteer
+
+**Language/script:**  
+Classical Chinese / Traditional Chinese
+
+**Format:**  
+Not yet specified
+
+**Location:**  
+To be added
+
+**Status:**  
+Not yet verified
+
+**Reliability notes:**  
+Edition, page range, and OCR quality must be checked before use.
+
+**Allowed AI use:**  
+The AI may use this source only when relevant text is provided or when the source has been registered with reliable metadata.
+
+**Restrictions:**  
+Do not invent quotations, page numbers, edition details, or bibliographic information.
+
+**Citation rule:**  
+Cite only with verified edition and page information.
+
+## Source Reliability Levels
+
+- **raw**: Not checked.
+- **OCRed**: Text extracted but may contain errors.
+- **cleaned**: Obvious errors corrected.
+- **verified**: Checked against source image or reliable edition.
+- **analysis-ready**: Safe for structured extraction or citation with caution.
+
+## When To Update This Page
+
+Update this page when:
+
+- A new source is added
+- OCR is completed
+- A source is cleaned or verified
+- Citation rules are decided
+- Source reliability changes
+- A source is removed from active use
+- A source-related workflow changes in [[workflows]]
