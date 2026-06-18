@@ -1,0 +1,8 @@
+﻿source_id,segment_id,segment_type,label,text,character_count,tei_entity_count,notes
+source-001,seg-001,title,article title,道不同終不相為謀：論章太炎與孫中山革命思想的異趣,24,2,Extracted from TEI body.
+source-001,seg-002,abstract,abstract paragraph,章太炎與孫中山因反滿革命而結合，但因出身與思想背景之異，雖是革命同道，終因思想上的差異，爭執與齟齬不斷，甚至導致革命陣營的分裂。兩人固然有性格上的差異，孫有元首特質，不甘居人後，故高度自信，難入逆耳之言，而易輕信諂媚。而章倡議革命，別有淵源，且以國師自居，喜直言無忌，不願屈己相從。個性之外，更有深層的思想上的差異。章、孫都是民族主義者，皆以推翻滿清政權為職志，然而兩公的民族主義內涵不盡相同。中山深受西方文化的影響，對歐美民主國家仰慕多，而對列強之帝國主義警覺少，甚至不惜借列強之助力，應對國內的政敵。而太炎之排滿，要因清政府不能應付列強之帝國主義侵略而起，故八國聯軍之後，始毅然投身革命。他也深感西潮對中國社會與政治上的威脅，所以反對西方帝國主義才是章太炎民族主義的核心價值。他早年與亞洲其他反帝志士來往，晚年極力反對赤化。但孫於清季革命時期未嘗參與其他亞洲弱小民族的反帝活動，晚年聯俄容共，欲借外力，求中國之統一。,410,19,Extracted from TEI body.
+source-001,kw-001,keyword,source keyword,章太炎,3,1,Keyword transcribed from the source page.
+source-001,kw-002,keyword,source keyword,孫中山,3,1,Keyword transcribed from the source page.
+source-001,kw-003,keyword,source keyword,革命思想,4,1,Keyword transcribed from the source page.
+source-001,kw-004,keyword,source keyword,國族主義,4,1,Keyword transcribed from the source page.
+source-001,kw-005,keyword,source keyword,帝國主義,4,1,Keyword transcribed from the source page.

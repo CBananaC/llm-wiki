@@ -1,0 +1,7 @@
+﻿source_id,dimension,label,method,evidence,uncertain,notes
+source-001,document_genre,journal article abstract page,TEI structure,TEI div type='abstract' and source keyword list.,false,Complete article page range remains unverified.
+source-001,language_script,Traditional Chinese,TEI xml:lang,zh-Hant,false,The TEI text element is marked zh-Hant.
+source-001,subject_area,modern Chinese intellectual history,title and keyword evidence,道不同終不相為謀：論章太炎與孫中山革命思想的異趣,false,The title frames a comparison of Zhang Taiyan and Sun Yat-sen's revolutionary thought.
+source-001,historical_focus,late Qing revolutionary politics,rule-based evidence terms,...與亞洲其他反帝志士來往，晚年極力反對赤化。但孫於清季革命時期未嘗參與其他亞洲弱小民族的反帝活動，晚年聯俄容共...,false,"Evidence comes from the abstract text, not from external historical inference."
+source-001,central_comparison,章太炎 and 孫中山,TEI personal-name markup,章太炎與孫中山,false,CBDB identifiers are encoded in the TEI persName refs.
+source-001,source_keywords,章太炎|孫中山|革命思想|國族主義|帝國主義,TEI keyword list,章太炎|孫中山|革命思想|國族主義|帝國主義,false,Preserves source keyword wording.

@@ -39,6 +39,7 @@ The workshop followed a practical learning path from basic LLM concepts to build
   - NLP analysis.
   - Historical GIS.
   - Network analysis.
+- TEI-derived NLP outputs for `source-001`, including segments, tags, topics, classifications, and a method summary.
 
 ## Main Lessons
 

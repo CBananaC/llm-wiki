@@ -1,0 +1,37 @@
+﻿source_id,tag_text,tag_type,tei_element,count,sections,refs,evidence,notes
+source-001,國族主義,concept,term,1,keywords,,國族主義,Extracted from explicit TEI markup.
+source-001,帝國主義,concept,term,1,keywords,,帝國主義,Extracted from explicit TEI markup.
+source-001,革命思想,concept,term,1,keywords,,革命思想,Extracted from explicit TEI markup.
+source-001,分裂,controlled_topic_term,,1,abstract,,...思想上的差異，爭執與齟齬不斷，甚至導致革命陣營的分裂。兩人固然有性格上的差異，孫有元首特質，不甘居人...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,列強,controlled_topic_term,,3,abstract,,...山深受西方文化的影響，對歐美民主國家仰慕多，而對列強之帝國主義警覺少，甚至不惜借列強之助力，應對國內...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,反帝,controlled_topic_term,,2,abstract,,...義才是章太炎民族主義的核心價值。他早年與亞洲其他反帝志士來往，晚年極力反對赤化。但孫於清季革命時期未...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,反滿革命,controlled_topic_term,,1,abstract,,...：論章太炎與孫中山革命思想的異趣章太炎與孫中山因反滿革命而結合，但因出身與思想背景之異，雖是革命同道，終...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,外力,controlled_topic_term,,1,abstract,,...與其他亞洲弱小民族的反帝活動，晚年聯俄容共，欲借外力，求中國之統一。章太炎孫中山革命思想國族主義帝國...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,屈己相從,controlled_topic_term,,1,abstract,,...議革命，別有淵源，且以國師自居，喜直言無忌，不願屈己相從。個性之外，更有深層的思想上的差異。章、孫都是民...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,思想上的差異,controlled_topic_term,,2,abstract,,...結合，但因出身與思想背景之異，雖是革命同道，終因思想上的差異，爭執與齟齬不斷，甚至導致革命陣營的分裂。兩人固...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,排滿,controlled_topic_term,,1,abstract,,...，甚至不惜借列強之助力，應對國內的政敵。而太炎之排滿，要因清政府不能應付列強之帝國主義侵略而起，故八...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,推翻滿清政權,controlled_topic_term,,1,abstract,,...有深層的思想上的差異。章、孫都是民族主義者，皆以推翻滿清政權為職志，然而兩公的民族主義內涵不盡相同。中山深受...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,民族主義,controlled_topic_term,,3,abstract,,...從。個性之外，更有深層的思想上的差異。章、孫都是民族主義者，皆以推翻滿清政權為職志，然而兩公的民族主義內...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,清政府,controlled_topic_term,,1,abstract,,...借列強之助力，應對國內的政敵。而太炎之排滿，要因清政府不能應付列強之帝國主義侵略而起，故八國聯軍之後，...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,爭執,controlled_topic_term,,1,abstract,,...與思想背景之異，雖是革命同道，終因思想上的差異，爭執與齟齬不斷，甚至導致革命陣營的分裂。兩人固然有性...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,直言無忌,controlled_topic_term,,1,abstract,,...信諂媚。而章倡議革命，別有淵源，且以國師自居，喜直言無忌，不願屈己相從。個性之外，更有深層的思想上的差異...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,聯俄容共,controlled_topic_term,,1,abstract,,...革命時期未嘗參與其他亞洲弱小民族的反帝活動，晚年聯俄容共，欲借外力，求中國之統一。章太炎孫中山革命思想國...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,西方文化,controlled_topic_term,,1,abstract,,...為職志，然而兩公的民族主義內涵不盡相同。中山深受西方文化的影響，對歐美民主國家仰慕多，而對列強之帝國主義...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,西潮,controlled_topic_term,,1,abstract,,...略而起，故八國聯軍之後，始毅然投身革命。他也深感西潮對中國社會與政治上的威脅，所以反對西方帝國主義才...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,赤化,controlled_topic_term,,1,abstract,,...價值。他早年與亞洲其他反帝志士來往，晚年極力反對赤化。但孫於清季革命時期未嘗參與其他亞洲弱小民族的反...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,革命同道,controlled_topic_term,,1,abstract,,...山因反滿革命而結合，但因出身與思想背景之異，雖是革命同道，終因思想上的差異，爭執與齟齬不斷，甚至導致革命...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,高度自信,controlled_topic_term,,1,abstract,,...固然有性格上的差異，孫有元首特質，不甘居人後，故高度自信，難入逆耳之言，而易輕信諂媚。而章倡議革命，別有...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,齟齬,controlled_topic_term,,1,abstract,,...背景之異，雖是革命同道，終因思想上的差異，爭執與齟齬不斷，甚至導致革命陣營的分裂。兩人固然有性格上的...,Rule-based term tag from the TEI+NLP topic vocabulary.
+source-001,清季革命時期,date,date,1,abstract,,清季革命時期,Extracted from explicit TEI markup.
+source-001,中山,person,persName,1,abstract,https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=75900&o=json,中山,Extracted from explicit TEI markup.
+source-001,太炎,person,persName,1,abstract,https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=88996&o=json,太炎,Extracted from explicit TEI markup.
+source-001,孫,person,persName,3,abstract,https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=75900&o=json,孫,Extracted from explicit TEI markup.
+source-001,孫中山,person,persName,3,abstract|keywords|title,https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=75900&o=json,孫中山,Extracted from explicit TEI markup.
+source-001,章,person,persName,2,abstract,https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=88996&o=json,章,Extracted from explicit TEI markup.
+source-001,章太炎,person,persName,4,abstract|keywords|title,https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=88996&o=json,章太炎,Extracted from explicit TEI markup.
+source-001,中國,place,placeName,2,abstract,,中國,Extracted from explicit TEI markup.
+source-001,亞洲,place,placeName,2,abstract,,亞洲,Extracted from explicit TEI markup.
+source-001,俄,place,placeName,1,abstract,,俄,Extracted from explicit TEI markup.
+source-001,歐美,place,placeName,1,abstract,,歐美,Extracted from explicit TEI markup.
+source-001,元首,role,roleName,1,abstract,,元首,Extracted from explicit TEI markup.
+source-001,國師,role,roleName,1,abstract,,國師,Extracted from explicit TEI markup.

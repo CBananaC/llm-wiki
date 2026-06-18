@@ -107,6 +107,25 @@ Warning: A working API call does not guarantee research-quality output.
 5. Add or revise a prevention rule.
 6. Retest the corrected prompt or workflow.
 
+## Workflow 6: From TEI to NLP Outputs
+
+1. Start from a checked TEI XML file.
+2. Extract document segments, such as title, abstract, paragraphs, and keywords.
+3. Extract existing TEI tags, such as personal names, places, dates, roles, and terms.
+4. Apply a documented NLP method, such as rule-based topic tagging, classification, or a reviewed model prompt.
+5. Save structured NLP outputs in `outputs/`.
+6. Add a short method note explaining whether the output is rule-based, model-generated, or human-reviewed.
+7. Do not describe a one-document thematic inventory as a statistical topic model.
+8. Review the output before using it as research evidence.
+
+Recommended output files:
+
+- `source-id.nlp-segments.csv`
+- `source-id.nlp-tags.csv`
+- `source-id.nlp-topics.csv`
+- `source-id.nlp-classification.csv`
+- `source-id.nlp-summary.md`
+
 ## Recommended Folder Structure
 
 ```text

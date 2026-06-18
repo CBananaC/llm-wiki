@@ -65,3 +65,6 @@ The raw PDF, OCR text, visually checked cleaned transcription, reviewed entity e
 - 2026-06-18: Created `source-001.cbdb-network.gexf` for import into Gephi.
 - Added `map-network-cross-reading.md` to compare the map and network while documenting that the place records are index addresses rather than career routes.
 - The current external data is sufficient to demonstrate the workflow but not sufficient to claim geographic clustering of the network.
+- 2026-06-18: Added a TEI-derived NLP pass using `scripts/tei_nlp_summary.py`.
+- Created `source-001.nlp-segments.csv`, `source-001.nlp-tags.csv`, `source-001.nlp-topics.csv`, `source-001.nlp-classification.csv`, and `source-001.nlp-summary.md`.
+- The NLP outputs are rule-based and evidence-oriented; they should not be described as a statistical topic model or as unreviewed research conclusions.
