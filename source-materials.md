@@ -105,6 +105,35 @@ Rules:
 
 No specific project sources have been fully registered yet. Add each source using the source record template above, then update [[index]] if the new source changes project navigation.
 
+### Source: source-001
+
+**Source type:**  
+To be confirmed
+
+**Language/script:**  
+To be confirmed
+
+**Format:**  
+PDF or image; to be confirmed when the source file is available
+
+**Location:**  
+`raw/source-001/`
+
+**Status:**  
+Raw
+
+**Reliability notes:**  
+Metadata, edition, page range, and OCR quality have not yet been verified.
+
+**Allowed AI use:**  
+AI may inspect or process the source only after the user provides the file or OCR text.
+
+**Restrictions:**  
+Do not invent the title, date, edition, author, page numbers, or citations.
+
+**Citation rule:**  
+Citation details must be verified before use.
+
 ## Example Source Record
 
 ### Source: 新安縣志
