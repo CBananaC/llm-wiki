@@ -6,7 +6,7 @@
 
 ## Current Status
 
-Raw source added. OCR and cleaning not completed yet.
+The raw PDF, OCR text, visually checked cleaned transcription, reviewed entity extraction outputs, and validated minimal TEI XML are available. Visible page metadata has been checked; the publication year, publisher, and complete article page range still require verification.
 
 ## Processing Steps
 
@@ -22,4 +22,33 @@ Raw source added. OCR and cleaning not completed yet.
 
 ## Notes
 
-Add notes here as the source is processed.
+- 2026-06-18: Saved the source PDF in `raw/source-001/`.
+- 2026-06-18: Saved raw OCR text and a source-page image in `ocr/source-001/`.
+- 2026-06-18: Created a cleaned sample in `cleaned/source-001/`; the full cleaned text still requires completion.
+- 2026-06-18: Ran entity extraction with Vertex AI and cleaned the batch CSV output.
+- 2026-06-18: Retried five rows that initially failed with HTTP 429 errors. All five retries succeeded.
+- 2026-06-18: Regenerated `source-001.entities.cleaned.csv` with 22 entity rows and `source-001.entities.errors.csv` with zero error rows.
+- 2026-06-18: Reviewed the seven recovered entity rows against the source context.
+- Added five supported records to `source-001.entities.verified.csv`: 章, 國師, 中山, 太炎, and 中國.
+- Excluded 西方 because it describes a cultural concept in this passage rather than a discrete place.
+- Excluded 歐美 because it is a collective regional expression rather than a specific place record under the current extraction rules.
+- 2026-06-18: Compared the one-page source image with the OCR and completed `cleaned/source-001/source-001.cleaned.txt`.
+- Corrected OCR errors including `嘲命` to `革命`, `早匣` to `齟齬`, `謠刀` to `諂媚`, `倡義` to `倡議`, `懊已` to `屈己`, `威轟` to `威脅`, and `未當` to `未嘗`.
+- Preserved the earlier OCR-based extraction as `source-001.entities.ocr.vertex.csv`, `source-001.entities.ocr.cleaned.csv`, `source-001.entities.ocr.errors.csv`, and `source-001.entities.ocr.verified.csv`.
+- 2026-06-18: Reran Vertex AI entity extraction using `source-001.cleaned.extraction-input.txt`.
+- Processed five corrected input rows and produced ten model-extracted entity rows with zero error rows.
+- Reviewed the corrected extraction and added two explicit entities missed by the model: `清季革命時期` and `俄`.
+- The active `source-001.entities.verified.csv` contains twelve reviewed entity rows based on the corrected transcription.
+- 2026-06-18: Verified visible bibliographic details from the source image: author 汪榮祖; title 〈道不同終不相為謀：論章太炎與孫中山革命思想的異趣〉; running header `思想史 7`; printed page `2`.
+- The embedded PDF metadata names a download tool rather than the article and is not reliable bibliographic evidence.
+- Focused external searches did not locate an exact catalog or journal record for the article. Publication year, publisher, interpretation of `7`, complete page range, and stable identifier remain unverified.
+- 2026-06-18: Created `source-001.tei.xml` as a minimal TEI representation of the checked transcription.
+- Marked the article structure, personal names, roles, places, time expression, and keywords while preserving the source wording.
+- Validated the XML successfully with `xmllint --noout`.
+- 2026-06-18: Created `source-001.gazetteer.csv` from the reviewed place entities.
+- Preserved the source forms 歐美, 中國, 亞洲, and 俄 without inventing normalized names, gazetteer identifiers, or coordinates.
+- Marked all four GIS records as uncertain because they are broad or abbreviated geographic expressions and have not been matched against an authoritative historical gazetteer.
+- 2026-06-18: Created `source-001.network-nodes.csv` and `source-001.network-edges.csv`.
+- Added four evidence-based relationships: revolutionary association, ideological conflict, self-identification as 國師, and 孫中山's political alignment expressed as 聯俄容共.
+- Did not infer friendship, residence, kinship, teacher-student relations, or other ties not stated in the source.
+- Marked the edge to 俄 as uncertain because the abbreviated geopolitical target has not been historically normalized.

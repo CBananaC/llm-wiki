@@ -1,0 +1,5 @@
+﻿source_id,source_node,source_type,target_node,target_type,relationship,evidence,uncertain,notes
+source-001,章太炎,person,孫中山,person,joined_in_anti_Manchu_revolution,章太炎與孫中山因反滿革命而結合,false,Symmetric relationship stated explicitly in the source.
+source-001,章太炎,person,孫中山,person,ideological_conflict,終因思想上的差異，爭執與齟齬不斷,false,Symmetric conflict stated explicitly in the source.
+source-001,章太炎,person,國師,role,self_identified_as,且以國師自居,false,Role claim rather than a verified official appointment.
+source-001,孫中山,person,俄,geopolitical_entity,political_alignment,晚年聯俄容共,true,The relation is explicit but the abbreviated target requires historical normalization.

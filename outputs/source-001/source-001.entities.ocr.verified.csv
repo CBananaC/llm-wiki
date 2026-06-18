@@ -1,0 +1,21 @@
+﻿source_id,input_row,original_input,entity_text,entity_type,uncertain,evidence,notes
+source-001,4,章太炎與孫中山嘲命思想的異趣,章太炎,personal_name,false,章太炎與孫中山嘲命思想的異趣,
+source-001,4,章太炎與孫中山嘲命思想的異趣,孫中山,personal_name,false,章太炎與孫中山嘲命思想的異趣,
+source-001,6,"章太炎與孫中山因反滿革命而結合,但因出身與思想背景之異,雖是",章太炎,personal_name,false,章太炎與孫中山因反滿革命而結合,
+source-001,6,"章太炎與孫中山因反滿革命而結合,但因出身與思想背景之異,雖是",孫中山,personal_name,false,章太炎與孫中山因反滿革命而結合,
+source-001,8,"裂。兩人固然有性格上的差異,孫有元首特質,不甘居人後,故高度自",孫,personal_name,true,孫有元首特質,"Only a surname is given, without a full name, making the specific individual uncertain."
+source-001,8,"裂。兩人固然有性格上的差異,孫有元首特質,不甘居人後,故高度自",元首,official_title,false,孫有元首特質,
+source-001,11,"異。章、孫都是民族主義者,皆以推翻滿清政權為職志,然而兩公的民族",章,personal_name,false,章、孫都是民族主義者,Likely refers to 章炳麟 (Zhang Binglin) or 章太炎 (Zhang Taiyan) in this historical context.
+source-001,11,"異。章、孫都是民族主義者,皆以推翻滿清政權為職志,然而兩公的民族",孫,personal_name,false,章、孫都是民族主義者,Likely refers to 孫中山 (Sun Yat-sen) in this historical context.
+source-001,16,以反對西方帝國主義才是章太炎民族主義的核心價值。他早年與亞洲其他,章太炎,personal_name,false,以反對西方帝國主義才是章太炎民族主義的核心價值。,
+source-001,17,"反帝志士來往,晚年極力反對赤化。但孫於清季革命時期未當參與其他亞",孫,personal_name,true,但孫於清季革命時期未當參與其他亞,Likely refers to Sun Yat-sen (孫中山) given the context of '清季革命時期'.
+source-001,17,"反帝志士來往,晚年極力反對赤化。但孫於清季革命時期未當參與其他亞",清季革命時期,date,false,但孫於清季革命時期未當參與其他亞,Refers to the late Qing dynasty revolutionary period.
+source-001,18,"洲弱小民族的反帝活動,晚年聯俄容共,欲借外力,求中國之統一。",中國,place_name,false,求中國之統一,
+source-001,18,"洲弱小民族的反帝活動,晚年聯俄容共,欲借外力,求中國之統一。",俄,place_name,false,聯俄容共,Refers to Russia
+source-001,19,關鍵詞:章太炎、孫中山、噴命思想、國族主義、帝國主義,章太炎,personal_name,false,章太炎,
+source-001,19,關鍵詞:章太炎、孫中山、噴命思想、國族主義、帝國主義,孫中山,personal_name,false,孫中山,
+source-001,9,"信,難入逆耳之言。而易輕信謠刀。而章倡義革命。別有淵源,且以國師",章,personal_name,true,章倡義革命,Context indicates a person but only the abbreviated form is present.
+source-001,9,"信,難入逆耳之言。而易輕信謠刀。而章倡義革命。別有淵源,且以國師",國師,official_title,false,且以國師,The text describes the person as presenting himself in this role.
+source-001,12,"主義內涵不盡相同。中山深受西方文化的影響,對歐美民主國家仰慕多,",中山,personal_name,true,"中山深受西方文化的影響,對歐美民主國家仰慕多",Context indicates 孫中山 but the extracted wording is abbreviated.
+source-001,14,"而太炎之排滿,要因清政府不能應付列強之帝國主義侵略而起,故八國聯",太炎,personal_name,false,而太炎之排滿,Context identifies the abbreviated name as 章太炎.
+source-001,15,"軍之後,始毅然投身革命。他也深感西潮對中國社會與政治上的威轟,所",中國,place_name,false,他也深感西潮對中國社會與政治上的威轟,

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>道不同終不相為謀：論章太炎與孫中山革命思想的異趣</title>
+        <author>汪榮祖</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication year and publisher not yet verified.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>汪榮祖</author>
+          <title level="a">道不同終不相為謀：論章太炎與孫中山革命思想的異趣</title>
+          <title level="j">思想史</title>
+          <biblScope unit="issue">7</biblScope>
+          <biblScope unit="page">2</biblScope>
+          <note>Issue or volume interpretation and complete article page range are unverified.</note>
+        </bibl>
+        <p>Transcribed from <ref target="../../raw/source-001/source-001.pdf">source-001.pdf</ref>.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Minimal TEI encoding based on a visually checked transcription. Personal names, places, time expressions, roles, and document structure are marked without adding unverified identifiers.</p>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="zh-Hant">
+    <body>
+      <div type="article-abstract">
+        <head>
+          <title>道不同終不相為謀：論<persName>章太炎</persName>與<persName>孫中山</persName>革命思想的異趣</title>
+        </head>
+        <div type="abstract">
+          <head>摘要</head>
+          <p>
+            <persName>章太炎</persName>與<persName>孫中山</persName>因反滿革命而結合，但因出身與思想背景之異，雖是革命同道，終因思想上的差異，爭執與齟齬不斷，甚至導致革命陣營的分裂。兩人固然有性格上的差異，<persName>孫</persName>有<roleName>元首</roleName>特質，不甘居人後，故高度自信，難入逆耳之言，而易輕信諂媚。而<persName>章</persName>倡議革命，別有淵源，且以<roleName>國師</roleName>自居，喜直言無忌，不願屈己相從。個性之外，更有深層的思想上的差異。<persName>章</persName>、<persName>孫</persName>都是民族主義者，皆以推翻滿清政權為職志，然而兩公的民族主義內涵不盡相同。<persName>中山</persName>深受西方文化的影響，對<placeName>歐美</placeName>民主國家仰慕多，而對列強之帝國主義警覺少，甚至不惜借列強之助力，應對國內的政敵。而<persName>太炎</persName>之排滿，要因清政府不能應付列強之帝國主義侵略而起，故八國聯軍之後，始毅然投身革命。他也深感西潮對<placeName>中國</placeName>社會與政治上的威脅，所以反對西方帝國主義才是<persName>章太炎</persName>民族主義的核心價值。他早年與<placeName>亞洲</placeName>其他反帝志士來往，晚年極力反對赤化。但<persName>孫</persName>於<date>清季革命時期</date>未嘗參與其他<placeName>亞洲</placeName>弱小民族的反帝活動，晚年聯<placeName>俄</placeName>容共，欲借外力，求<placeName>中國</placeName>之統一。
+          </p>
+        </div>
+        <div type="keywords">
+          <head>關鍵詞</head>
+          <list>
+            <item><persName>章太炎</persName></item>
+            <item><persName>孫中山</persName></item>
+            <item><term>革命思想</term></item>
+            <item><term>國族主義</term></item>
+            <item><term>帝國主義</term></item>
+          </list>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

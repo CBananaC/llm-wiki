@@ -103,36 +103,45 @@ Rules:
 
 ## Current Sources
 
-No specific project sources have been fully registered yet. Add each source using the source record template above, then update [[index]] if the new source changes project navigation.
+`source-001` is registered below. Metadata visible on the supplied page has been checked, but the publication year, publisher, and complete article page range still require verification.
 
-### Source: source-001
+### Source: source-001 — 道不同終不相為謀：論章太炎與孫中山革命思想的異趣
 
 **Source type:**  
-To be confirmed
+Secondary scholarship / journal article abstract page
 
 **Language/script:**  
-To be confirmed
+Traditional Chinese
+
+**Author:**  
+汪榮祖
+
+**Publication:**  
+《思想史》, issue or volume designation `7` as printed in the page header
+
+**Page:**  
+Printed page `2`; the complete article page range is not yet known
 
 **Format:**  
-PDF or image; to be confirmed when the source file is available
+PDF
 
 **Location:**  
 `raw/source-001/`
 
 **Status:**  
-Raw
+Cleaned / TEI encoded / GIS and network artifacts created / citation partially verified
 
 **Reliability notes:**  
-Metadata, edition, page range, and OCR quality have not yet been verified.
+The one-page PDF, raw OCR text, visually checked cleaned transcription, reviewed entity extraction outputs, and validated minimal TEI XML are available. The extraction was rerun against the corrected transcription. The title, author, `思想史 7` header, and printed page number are visible on the supplied page. The publication year, publisher, complete article page range, and stable catalog identifier have not been verified. The embedded PDF metadata is unreliable and must not be used for citation.
 
 **Allowed AI use:**  
-AI may inspect or process the source only after the user provides the file or OCR text.
+AI may inspect and process the available source file and OCR text. AI-generated entities must be reviewed before use as research evidence.
 
 **Restrictions:**  
-Do not invent the title, date, edition, author, page numbers, or citations.
+Do not invent the publication year, publisher, issue interpretation, complete page range, stable identifier, or other citation details.
 
 **Citation rule:**  
-Citation details must be verified before use.
+Until a complete catalog or journal record is found, use only a provisional citation: 汪榮祖, 〈道不同終不相為謀：論章太炎與孫中山革命思想的異趣〉, 《思想史》 7, supplied abstract page, printed p. 2. Mark the publication year and complete page range as unverified.
 
 ## Example Source Record
 

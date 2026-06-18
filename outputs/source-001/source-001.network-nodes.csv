@@ -1,0 +1,5 @@
+﻿node_id,label,node_type,uncertain,notes
+章太炎,章太炎,person,false,
+孫中山,孫中山,person,false,
+國師,國師,role,false,Role that 章太炎 claims for himself in the source.
+俄,俄,geopolitical_entity,true,Abbreviated source form; likely refers to Russia but requires historical normalization.

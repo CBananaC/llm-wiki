@@ -1,0 +1,5 @@
+﻿source_id,place_text,normalized_place,period,gazetteer_id,latitude,longitude,uncertain,evidence,notes
+source-001,歐美,,,,,,true,對歐美民主國家仰慕多,Collective regional expression; not a discrete gazetteer place. No coordinates assigned.
+source-001,中國,,,,,,true,西潮對中國社會與政治上的威脅,Broad historical and political region. Period and geographic extent require clarification before mapping.
+source-001,亞洲,,,,,,true,早年與亞洲其他反帝志士來往,Broad continental region; not suitable for point geocoding without a more specific place reference.
+source-001,俄,,,,,,true,晚年聯俄容共,Abbreviated political-geographic reference likely meaning Russia; normalization and historical extent require authoritative verification.

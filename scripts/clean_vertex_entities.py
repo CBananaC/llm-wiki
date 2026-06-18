@@ -182,12 +182,13 @@ def main():
                     }
                 )
 
-    with CLEANED_PATH.open("w", encoding="utf-8", newline="") as cleaned_file:
+    # utf-8-sig adds a BOM so Excel and Numbers recognize Chinese text correctly.
+    with CLEANED_PATH.open("w", encoding="utf-8-sig", newline="") as cleaned_file:
         writer = csv.DictWriter(cleaned_file, fieldnames=CLEANED_COLUMNS)
         writer.writeheader()
         writer.writerows(entity_rows)
 
-    with ERRORS_PATH.open("w", encoding="utf-8", newline="") as errors_file:
+    with ERRORS_PATH.open("w", encoding="utf-8-sig", newline="") as errors_file:
         writer = csv.DictWriter(errors_file, fieldnames=ERROR_COLUMNS)
         writer.writeheader()
         writer.writerows(error_rows)
