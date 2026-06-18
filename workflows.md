@@ -14,6 +14,15 @@ This page records repeatable project workflows so human researchers and AI assis
 - Check AI output before using it as research evidence.
 - When a workflow fails, document the failure in [[known-errors]].
 
+## Classical Digital Humanities Skills
+
+Skills are reusable instructions that help AI agents apply project methods consistently. Classical digital humanities methods should produce verifiable artifacts, such as TEI XML, structured NLP outputs, map-ready gazetteer data, and network edge lists.
+
+- `skills/tei-encoding.md`: Use for structured XML markup of texts and textual features.
+- `skills/nlp-analysis.md`: Use for computational text analysis and structured NLP outputs.
+- `skills/historical-gis.md`: Use for historical place identification, gazetteer matching, and map data.
+- `skills/network-analysis.md`: Use for evidence-based relationship extraction and network edge lists.
+
 ## Workflow 1: From Source Image to Extracted Text
 
 1. Collect source image or PDF.
@@ -112,6 +121,11 @@ llm-wiki/
   examples.md
   known-errors.md
   workflows.md
+  skills/
+    tei-encoding.md
+    nlp-analysis.md
+    historical-gis.md
+    network-analysis.md
   raw/
   ocr/
   cleaned/
@@ -126,6 +140,7 @@ Folder purposes:
 - `cleaned/`: Corrected or cleaned text derived from OCR or transcription.
 - `outputs/`: Extracted tables, JSON files, CSV files, model outputs, and analysis results.
 - `scripts/`: Helper scripts for OCR, cleaning, extraction, conversion, or validation.
+- `skills/`: Reusable instructions for AI agents, including classical digital humanities methods.
 
 ## When To Update This Page
 

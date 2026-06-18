@@ -8,6 +8,8 @@ It helps AI assistants understand project background, [[terminology]], [[source-
 
 Skills are reusable instructions that help AI agents perform specific tasks consistently and safely.
 
+Classical digital humanities methods should produce verifiable artifacts, such as TEI XML, structured NLP outputs, map-ready gazetteer data, and network edge lists.
+
 ## Quick Start for AI Assistants
 
 Before doing any project work, read these files in order:
@@ -44,6 +46,10 @@ Rules:
 | --- | --- | --- |
 | `skills/rest-api-workflow.md` | Provides a safe, repeatable workflow for using external RESTful APIs. | Use when requesting external data or calling an API from a script. |
 | `skills/librarycloud-search.md` | Provides a workflow for searching Harvard LibraryCloud or a similar catalog API. | Use when finding and evaluating bibliographic records. |
+| `skills/tei-encoding.md` | Provides rules for encoding source texts as structured TEI XML. | Use when marking text structure, entities, dates, titles, or divisions. |
+| `skills/nlp-analysis.md` | Provides rules for computational text analysis and structured NLP outputs. | Use for entity extraction, classification, tagging, topic detection, or model comparison. |
+| `skills/historical-gis.md` | Provides rules for linking historical places to gazetteers and map-ready data. | Use for place extraction, historical geocoding, and geographic data preparation. |
+| `skills/network-analysis.md` | Provides rules for creating evidence-based nodes and edge lists. | Use for relationship extraction and network data preparation. |
 
 ## Suggested Reading Paths
 
