@@ -1,0 +1,149 @@
+﻿row number,original input,model response
+1,道不同終不相為謀:,[]
+2,竿,[]
+3,sail,[]
+4,章太炎與孫中山嘲命思想的異趣,"```json
+[
+  {
+    ""entity_text"": ""章太炎"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": false,
+    ""evidence"": ""章太炎與孫中山嘲命思想的異趣"",
+    ""notes"": """"
+  },
+  {
+    ""entity_text"": ""孫中山"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": false,
+    ""evidence"": ""章太炎與孫中山嘲命思想的異趣"",
+    ""notes"": """"
+  }
+]
+```"
+5,摘要,[]
+6,"章太炎與孫中山因反滿革命而結合,但因出身與思想背景之異,雖是","```json
+[
+  {
+    ""entity_text"": ""章太炎"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": false,
+    ""evidence"": ""章太炎與孫中山因反滿革命而結合"",
+    ""notes"": null
+  },
+  {
+    ""entity_text"": ""孫中山"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": false,
+    ""evidence"": ""章太炎與孫中山因反滿革命而結合"",
+    ""notes"": null
+  }
+]
+```"
+7,"革命同道。,終因思想上的差異,爭執與早匣不斷,甚至導致革命陣營的分",[]
+8,"裂。兩人固然有性格上的差異,孫有元首特質,不甘居人後,故高度自","```json
+[
+  {
+    ""entity_text"": ""孫"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": true,
+    ""evidence"": ""孫有元首特質"",
+    ""notes"": ""Only a surname is given, without a full name, making the specific individual uncertain.""
+  },
+  {
+    ""entity_text"": ""元首"",
+    ""entity_type"": ""official_title"",
+    ""uncertain"": false,
+    ""evidence"": ""孫有元首特質"",
+    ""notes"": null
+  }
+]
+```"
+9,"信,難入逆耳之言。而易輕信謠刀。而章倡義革命。別有淵源,且以國師",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.
+10,"自居,喜直言無忌。不願懊已相從。個性之外,更有深層的思想上的差",[]
+11,"異。章、孫都是民族主義者,皆以推翻滿清政權為職志,然而兩公的民族","```json
+[
+  {
+    ""entity_text"": ""章"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": false,
+    ""evidence"": ""章、孫都是民族主義者"",
+    ""notes"": ""Likely refers to 章炳麟 (Zhang Binglin) or 章太炎 (Zhang Taiyan) in this historical context.""
+  },
+  {
+    ""entity_text"": ""孫"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": false,
+    ""evidence"": ""章、孫都是民族主義者"",
+    ""notes"": ""Likely refers to 孫中山 (Sun Yat-sen) in this historical context.""
+  }
+]
+```"
+12,"主義內涵不盡相同。中山深受西方文化的影響,對歐美民主國家仰慕多,",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.
+13,"而對列強之帝國主義警覺少,甚至不惜借列強之助力,應對國內的政敵。",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.
+14,"而太炎之排滿,要因清政府不能應付列強之帝國主義侵略而起,故八國聯",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.
+15,"軍之後,始毅然投身革命。他也深感西潮對中國社會與政治上的威轟,所",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.
+16,以反對西方帝國主義才是章太炎民族主義的核心價值。他早年與亞洲其他,"```json
+[
+  {
+    ""entity_text"": ""章太炎"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": false,
+    ""evidence"": ""以反對西方帝國主義才是章太炎民族主義的核心價值。"",
+    ""notes"": """"
+  }
+]
+```"
+17,"反帝志士來往,晚年極力反對赤化。但孫於清季革命時期未當參與其他亞","```json
+[
+  {
+    ""entity_text"": ""孫"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": true,
+    ""evidence"": ""但孫於清季革命時期未當參與其他亞"",
+    ""notes"": ""Likely refers to Sun Yat-sen (孫中山) given the context of '清季革命時期'.""
+  },
+  {
+    ""entity_text"": ""清季革命時期"",
+    ""entity_type"": ""date"",
+    ""uncertain"": false,
+    ""evidence"": ""但孫於清季革命時期未當參與其他亞"",
+    ""notes"": ""Refers to the late Qing dynasty revolutionary period.""
+  }
+]
+```"
+18,"洲弱小民族的反帝活動,晚年聯俄容共,欲借外力,求中國之統一。","```json
+[
+  {
+    ""entity_text"": ""中國"",
+    ""entity_type"": ""place_name"",
+    ""uncertain"": false,
+    ""evidence"": ""求中國之統一"",
+    ""notes"": """"
+  },
+  {
+    ""entity_text"": ""俄"",
+    ""entity_type"": ""place_name"",
+    ""uncertain"": false,
+    ""evidence"": ""聯俄容共"",
+    ""notes"": ""Refers to Russia""
+  }
+]
+```"
+19,關鍵詞:章太炎、孫中山、噴命思想、國族主義、帝國主義,"```json
+[
+  {
+    ""entity_text"": ""章太炎"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": false,
+    ""evidence"": ""章太炎"",
+    ""notes"": null
+  },
+  {
+    ""entity_text"": ""孫中山"",
+    ""entity_type"": ""personal_name"",
+    ""uncertain"": false,
+    ""evidence"": ""孫中山"",
+    ""notes"": null
+  }
+]
+```"

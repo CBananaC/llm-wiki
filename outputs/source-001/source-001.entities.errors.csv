@@ -1,0 +1,6 @@
+source_id,input_row,original_input,raw_response,error
+source-001,9,"信,難入逆耳之言。而易輕信謠刀。而章倡義革命。別有淵源,且以國師",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.,JSON parsing failed: Expecting value: line 1 column 1 (char 0)
+source-001,12,"主義內涵不盡相同。中山深受西方文化的影響,對歐美民主國家仰慕多,",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.,JSON parsing failed: Expecting value: line 1 column 1 (char 0)
+source-001,13,"而對列強之帝國主義警覺少,甚至不惜借列強之助力,應對國內的政敵。",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.,JSON parsing failed: Expecting value: line 1 column 1 (char 0)
+source-001,14,"而太炎之排滿,要因清政府不能應付列強之帝國主義侵略而起,故八國聯",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.,JSON parsing failed: Expecting value: line 1 column 1 (char 0)
+source-001,15,"軍之後,始毅然投身革命。他也深感西潮對中國社會與政治上的威轟,所",Error: HTTP 429: Rate limit or quota reached. Check your Vertex AI quota or try another region.,JSON parsing failed: Expecting value: line 1 column 1 (char 0)

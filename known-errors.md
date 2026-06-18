@@ -221,6 +221,50 @@ Use an uncertainty-aware format:
 **Prevention rule:**  
 Use an output schema with an uncertain field for ambiguous historical entities. See [[extraction-rules]].
 
+## Error 8: Returning JSON Inside Markdown Code Fence
+
+**Task:**  
+Extract entities and output JSON array only.
+
+**Source text:**  
+章太炎與孫中山嘲命思想的異趣
+
+**Bad output:**  
+````text
+```json
+[
+  {
+    "entity_text": "章太炎",
+    "entity_type": "personal_name",
+    "uncertain": false,
+    "evidence": "章太炎與孫中山嘲命思想的異趣",
+    "notes": ""
+  }
+]
+```
+````
+
+**Why it is wrong:**  
+- The task requested a JSON array only.
+- Markdown code fences make the output harder to parse as raw JSON.
+- CSV post-processing may need to remove the code fence before parsing.
+
+**Correct output:**  
+```json
+[
+  {
+    "entity_text": "章太炎",
+    "entity_type": "personal_name",
+    "uncertain": false,
+    "evidence": "章太炎與孫中山嘲命思想的異趣",
+    "notes": ""
+  }
+]
+```
+
+**Prevention rule:**  
+Add a stricter instruction to prompts: "Return raw JSON only. Do not wrap the JSON in Markdown. Do not use a `json` code fence or any other Markdown code fence."
+
 ## General Prevention Rules
 
 - Test prompts on simple examples before using them on large files.
