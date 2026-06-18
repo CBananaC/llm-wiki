@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3">
+  <meta lastmodifieddate="2026-06-18">
+    <creator>AI Agents for Sinitic Texts workshop project</creator>
+    <description>CBDB-derived association network for people matched from source-001. These relationships are external enrichment and are not claims made by source-001.</description>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="0" title="node_type" type="string"/>
+      <attribute id="1" title="cbdb_person_id" type="string"/>
+      <attribute id="2" title="uncertain" type="boolean"/>
+      <attribute id="3" title="notes" type="string"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="4" title="relationship" type="string"/>
+      <attribute id="5" title="year" type="integer"/>
+      <attribute id="6" title="evidence_source" type="string"/>
+      <attribute id="7" title="evidence_pages" type="string"/>
+      <attribute id="8" title="api_url" type="string"/>
+      <attribute id="9" title="uncertain" type="boolean"/>
+      <attribute id="10" title="notes" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="cbdb:75900" label="孫中山">
+        <attvalues>
+          <attvalue for="0" value="person"/>
+          <attvalue for="1" value="75900"/>
+          <attvalue for="2" value="false"/>
+          <attvalue for="3" value="CBDB normalized name: 孫文."/>
+        </attvalues>
+      </node>
+      <node id="cbdb:88996" label="章太炎">
+        <attvalues>
+          <attvalue for="0" value="person"/>
+          <attvalue for="1" value="88996"/>
+          <attvalue for="2" value="false"/>
+          <attvalue for="3" value="CBDB normalized name: 章炳麟."/>
+        </attvalues>
+      </node>
+      <node id="cbdb:54478" label="秋瑾">
+        <attvalues>
+          <attvalue for="0" value="person"/>
+          <attvalue for="1" value="54478"/>
+          <attvalue for="2" value="false"/>
+          <attvalue for="3" value="Related person returned in the CBDB record for 孫文."/>
+        </attvalues>
+      </node>
+      <node id="cbdb:88890" label="康有為">
+        <attvalues>
+          <attvalue for="0" value="person"/>
+          <attvalue for="1" value="88890"/>
+          <attvalue for="2" value="false"/>
+          <attvalue for="3" value="Related person returned in the CBDB record for 章炳麟."/>
+        </attvalues>
+      </node>
+      <node id="cbdb:120933" label="呂美蓀">
+        <attvalues>
+          <attvalue for="0" value="person"/>
+          <attvalue for="1" value="120933"/>
+          <attvalue for="2" value="false"/>
+          <attvalue for="3" value="Related person returned in the CBDB record for 章炳麟."/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="cbdb:75900" target="cbdb:54478" label="為Y所著書作序">
+        <attvalues>
+          <attvalue for="4" value="為Y所著書作序"/>
+          <attvalue for="6" value="明清婦女著作數據庫"/>
+          <attvalue for="7" value="MQWW PoetID #151, HuWenKai #437"/>
+          <attvalue for="8" value="https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=75900&amp;o=json"/>
+          <attvalue for="9" value="false"/>
+          <attvalue for="10" value="Relationship returned by CBDB; not stated in source-001."/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="cbdb:88996" target="cbdb:88890" label="致書Y">
+        <attvalues>
+          <attvalue for="4" value="致書Y"/>
+          <attvalue for="5" value="1903"/>
+          <attvalue for="6" value="康有为书信往来集"/>
+          <attvalue for="7" value="549"/>
+          <attvalue for="8" value="https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=88996&amp;o=json"/>
+          <attvalue for="9" value="false"/>
+          <attvalue for="10" value="章炳麟 wrote to 康有為 according to the CBDB association record."/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="cbdb:88890" target="cbdb:88996" label="致書Y">
+        <attvalues>
+          <attvalue for="4" value="致書Y"/>
+          <attvalue for="5" value="1898"/>
+          <attvalue for="6" value="康有为书信往来集"/>
+          <attvalue for="7" value="549"/>
+          <attvalue for="8" value="https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=88996&amp;o=json"/>
+          <attvalue for="9" value="false"/>
+          <attvalue for="10" value="CBDB records 章炳麟 as 被致書由Y; represented as 康有為 writing to 章炳麟."/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="cbdb:88996" target="cbdb:120933" label="稱道Y的詩作">
+        <attvalues>
+          <attvalue for="4" value="稱道Y的詩作"/>
+          <attvalue for="6" value="未知"/>
+          <attvalue for="8" value="https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=88996&amp;o=json"/>
+          <attvalue for="9" value="false"/>
+          <attvalue for="10" value="CBDB note cites 安徽省志‧人物志, page 953."/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

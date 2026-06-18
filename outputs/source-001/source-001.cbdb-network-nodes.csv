@@ -1,0 +1,6 @@
+﻿node_id,label,node_type,cbdb_person_id,uncertain,notes
+cbdb:75900,孫中山,person,75900,false,CBDB normalized name: 孫文.
+cbdb:88996,章太炎,person,88996,false,CBDB normalized name: 章炳麟.
+cbdb:54478,秋瑾,person,54478,false,Related person returned in the CBDB record for 孫文.
+cbdb:88890,康有為,person,88890,false,Related person returned in the CBDB record for 章炳麟.
+cbdb:120933,呂美蓀,person,120933,false,Related person returned in the CBDB record for 章炳麟.

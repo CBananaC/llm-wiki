@@ -52,3 +52,16 @@ The raw PDF, OCR text, visually checked cleaned transcription, reviewed entity e
 - Added four evidence-based relationships: revolutionary association, ideological conflict, self-identification as 國師, and 孫中山's political alignment expressed as 聯俄容共.
 - Did not infer friendship, residence, kinship, teacher-student relations, or other ties not stated in the source.
 - Marked the edge to 俄 as uncertain because the abbreviated geopolitical target has not been historically normalized.
+- 2026-06-18: Queried the official CBDB person endpoint and disambiguated the source's two named people.
+- Matched 孫中山 to 孫文, CBDB person ID `75900`, using dates 1866–1925, address 香山, and alias 中山.
+- Matched 章太炎 to 章炳麟, CBDB person ID `88996`, using dates 1868–1936, address 餘杭, and alias 太炎.
+- Added separate CBDB people, places, network nodes, and network edges CSVs so external data remains distinct from source-derived claims.
+- Added CBDB links to the TEI personal-name markup.
+- 2026-06-18: Matched the CBDB address 香山 to CHGIS 香山縣 (`hvd_42226`) at year 1866.
+- 2026-06-18: Matched the CBDB address 餘杭 to CHGIS 余杭縣 (`hvd_40085`) at year 1868 using the TGAZ spelling variant 余杭.
+- Added `source-001.chgis-places.csv` with stable CHGIS IDs, valid years, historical parents, and authoritative point coordinates.
+- Added the verified coordinates to `source-001.cbdb-places.csv` while preserving the separate CBDB and CHGIS identifiers.
+- 2026-06-18: Created `source-001.cbdb-chgis.geojson` for import into QGIS or another mapping tool.
+- 2026-06-18: Created `source-001.cbdb-network.gexf` for import into Gephi.
+- Added `map-network-cross-reading.md` to compare the map and network while documenting that the place records are index addresses rather than career routes.
+- The current external data is sufficient to demonstrate the workflow but not sufficient to claim geographic clustering of the network.

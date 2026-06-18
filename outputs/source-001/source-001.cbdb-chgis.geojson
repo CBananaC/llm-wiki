@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "name": "source-001 CBDB and CHGIS places",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "hvd_42226",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.3736, 22.52581]
+      },
+      "properties": {
+        "source_id": "source-001",
+        "person_name": "孫中山",
+        "normalized_person_name": "孫文",
+        "cbdb_person_id": "75900",
+        "cbdb_place_text": "香山",
+        "chgis_name": "香山縣",
+        "chgis_id": "hvd_42226",
+        "feature_type": "縣",
+        "query_year": 1866,
+        "valid_from": 1152,
+        "valid_to": 1911,
+        "historical_parent": "廣州府",
+        "parent_chgis_id": "hvd_33047",
+        "place_role": "籍貫(基本地址)",
+        "uncertain": false,
+        "source_url": "https://chgis.hudci.org/tgaz/placename/json/hvd_42226"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hvd_40085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.94059, 30.27177]
+      },
+      "properties": {
+        "source_id": "source-001",
+        "person_name": "章太炎",
+        "normalized_person_name": "章炳麟",
+        "cbdb_person_id": "88996",
+        "cbdb_place_text": "餘杭",
+        "chgis_name": "余杭縣",
+        "chgis_id": "hvd_40085",
+        "feature_type": "縣",
+        "query_year": 1868,
+        "valid_from": 173,
+        "valid_to": 1911,
+        "historical_parent": "杭州府",
+        "parent_chgis_id": "hvd_32337",
+        "place_role": "籍貫(基本地址)",
+        "uncertain": false,
+        "source_url": "https://chgis.hudci.org/tgaz/placename/json/hvd_40085"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿source_id,source_node,source_type,target_node,target_type,relationship,year,evidence_source,evidence_pages,api_url,uncertain,notes
+source-001,cbdb:75900,person,cbdb:54478,person,為Y所著書作序,,明清婦女著作數據庫,"MQWW PoetID #151, HuWenKai #437",https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=75900&o=json,false,Relationship returned by CBDB; not stated in source-001.
+source-001,cbdb:88996,person,cbdb:88890,person,致書Y,1903,康有为书信往来集,549,https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=88996&o=json,false,章炳麟 wrote to 康有為 according to the CBDB association record.
+source-001,cbdb:88890,person,cbdb:88996,person,致書Y,1898,康有为书信往来集,549,https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=88996&o=json,false,CBDB records 章炳麟 as 被致書由Y; represented here as 康有為 writing to 章炳麟.
+source-001,cbdb:88996,person,cbdb:120933,person,稱道Y的詩作,,未知,,https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=88996&o=json,false,Relationship returned by CBDB with a note citing 安徽省志‧人物志 page 953.

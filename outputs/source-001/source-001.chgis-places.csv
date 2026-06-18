@@ -1,0 +1,3 @@
+﻿source_id,person_name,cbdb_person_id,cbdb_place_text,query_name,query_year,chgis_name,chgis_id,feature_type,parent_name,parent_chgis_id,valid_from,valid_to,latitude,longitude,present_location,api_url,uncertain,notes
+source-001,孫中山,75900,香山,香山,1866,香山縣,hvd_42226,縣,廣州府,hvd_33047,1152,1911,22.52581,113.37360,廣東省中山市,https://chgis.hudci.org/tgaz/placename/json/hvd_42226,false,Unique year-filtered TGAZ match. The canonical record gives 廣州府 as the parent for 1368–1911.
+source-001,章太炎,88996,餘杭,余杭,1868,余杭縣,hvd_40085,縣,杭州府,hvd_32337,173,1911,30.27177,119.94059,今浙江余杭县余杭镇,https://chgis.hudci.org/tgaz/placename/json/hvd_40085,false,Unique year-filtered match using the TGAZ spelling 余杭. The canonical record gives 杭州府 as the parent for 1366–1911.

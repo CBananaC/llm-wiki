@@ -1,0 +1,3 @@
+﻿source_id,person_name,cbdb_person_id,address_type,place_name,cbdb_address_id,first_year,last_year,source,source_pages,chgis_id,latitude,longitude,uncertain,notes
+source-001,孫中山,75900,籍貫(基本地址),香山,8398,,,清代人物生卒年表,6460,hvd_42226,22.52581,113.37360,false,CBDB address matched to CHGIS 香山縣 using year 1866.
+source-001,章太炎,88996,籍貫(基本地址),餘杭,7605,,,清代人物生卒年表,21680,hvd_40085,30.27177,119.94059,false,CBDB address matched to CHGIS 余杭縣 using year 1868 and the TGAZ spelling variant 余杭.

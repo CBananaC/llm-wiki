@@ -137,6 +137,9 @@ The one-page PDF, raw OCR text, visually checked cleaned transcription, reviewed
 **Allowed AI use:**  
 AI may inspect and process the available source file and OCR text. AI-generated entities must be reviewed before use as research evidence.
 
+**External enrichment:**  
+CBDB person IDs `75900` (孫文 / 孫中山) and `88996` (章炳麟 / 章太炎) were matched through the official CBDB API on 2026-06-18. Their CBDB addresses were matched through CHGIS/TGAZ to `hvd_42226` (香山縣) and `hvd_40085` (余杭縣). External database claims are stored separately under `outputs/source-001/source-001.cbdb-*` and `outputs/source-001/source-001.chgis-*` and must not be attributed to the article.
+
 **Restrictions:**  
 Do not invent the publication year, publisher, issue interpretation, complete page range, stable identifier, or other citation details.
 
