@@ -6,6 +6,8 @@ This wiki is a working knowledge base for AI-assisted digital humanities work on
 
 It helps AI assistants understand project background, [[terminology]], [[source-materials]], [[extraction-rules]], [[prompt-rules]], [[examples]], [[known-errors]], and [[workflows]] before doing project work.
 
+Skills are reusable instructions that help AI agents perform specific tasks consistently and safely.
+
 ## Quick Start for AI Assistants
 
 Before doing any project work, read these files in order:
@@ -35,6 +37,13 @@ Rules:
 | [[examples]] | Shows correct and incorrect AI outputs. | Read before testing prompts or judging model output. |
 | [[known-errors]] | Records repeated AI mistakes and prevention rules. | Read before designing prompts or debugging bad outputs. |
 | [[workflows]] | Describes repeatable project workflows. | Read before OCR, extraction, model comparison, or wiki updates. |
+
+## Skills
+
+| File | Purpose | When to use it |
+| --- | --- | --- |
+| `skills/rest-api-workflow.md` | Provides a safe, repeatable workflow for using external RESTful APIs. | Use when requesting external data or calling an API from a script. |
+| `skills/librarycloud-search.md` | Provides a workflow for searching Harvard LibraryCloud or a similar catalog API. | Use when finding and evaluating bibliographic records. |
 
 ## Suggested Reading Paths
 
